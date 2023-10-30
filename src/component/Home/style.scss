@@ -116,4 +116,29 @@
 
         }
     }
+
+    .Price_range_main {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+
+        .input_wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            input {
+                max-width: 80px;
+                height: 30px;
+
+                &::-webkit-outer-spin-button,
+                &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+            }
+
+        }
+    }
 }
